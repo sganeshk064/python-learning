@@ -104,11 +104,15 @@
 
 
 # #Problem 13 — Check prime number ⭐⭐///////////////////////////
-# n = 3
-# if n % 2 != 0 and n % 3 != 0:
-#     print("Prime")
-# else:
+# n = 8
+# if n <= 2:
 #     print("Not Prime")
+# else:  
+#     for i in range(2,n):
+#         if n % i == 0:
+#             print("Not Prime")
+        
+#     print("Prime")
 
 #Problem 14 — Fibonacci series ⭐⭐ ///////////////////////////////
 # n = int(input("Enter the terms: "))
