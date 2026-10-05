@@ -103,18 +103,19 @@
 # print(fact)
 
 
-# #Problem 13 — Check prime number ⭐⭐///////////////////////////
-# n = 8
-# if n <= 2:
+# #Problem 13 — Check prime number ⭐⭐
+# n = 7
+# if n <= 1:
 #     print("Not Prime")
 # else:  
 #     for i in range(2,n):
 #         if n % i == 0:
 #             print("Not Prime")
-        
-#     print("Prime")
+#             break
+#     else:        
+#         print("Prime")
 
-#Problem 14 — Fibonacci series ⭐⭐ ///////////////////////////////
+#Problem 14 — Fibonacci series ⭐⭐
 # n = int(input("Enter the terms: "))
 # a = 0
 # b = 1
